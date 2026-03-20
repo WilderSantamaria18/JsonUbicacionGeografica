@@ -1,0 +1,32 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# Build files
+target/
+build/
+*.class
+*.jar
+*.war
+*.nih
+*.jar.original
+
+# Dependencies
+node_modules/
+/dist
+/build
+
+# Environment
+.env
+.env.local
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

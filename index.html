@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptuno - JSON API</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.3);
+        }
+        
+        h1 { color: #333; margin-bottom: 10px; font-size: 28px; }
+        .subtitle { color: #666; margin-bottom: 30px; font-size: 14px; }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .section h2 { color: #667eea; margin-bottom: 15px; font-size: 18px; }
+        
+        .endpoint {
+            background: #fff;
+            padding: 12px 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            word-break: break-all;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .endpoint a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .endpoint a:hover { text-decoration: underline; }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        button:hover { background: #764ba2; }
+        
+        .response {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+        
+        .copy-btn {
+            background: #28a745;
+            padding: 8px 12px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        .copy-btn:hover { background: #218838; }
+        
+        .info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            color: #0c5aa0;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌊 Neptuno - JSON API</h1>
+        <p class="subtitle">Servidor estático para exponer documentos y ubicaciones geográficas</p>
+        
+        <div class="info">
+            ✓ Esta API expone dos archivos JSON para consumo desde otras aplicaciones. 
+            Ideal para usar con Spring Boot, Node.js, Python, etc.
+        </div>
+        
+        <!-- Documentos Section -->
+        <div class="section">
+            <h2>📄 Documentos</h2>
+            <p style="margin-bottom: 15px; color: #666;">Contiene DNI y RUC de personas y empresas</p>
+            
+            <div class="endpoint">
+                GET <a href="/json/documentos" target="_blank">/json/documentos</a>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="cargarJSON('documentos')">Preview</button>
+                <button onclick="copiarEnPortapapeles('/json/documentos')">Copiar URL</button>
+            </div>
+            
+            <div id="response-documentos" class="response"></div>
+        </div>
+        
+        <!-- Ubicaciones Section -->
+        <div class="section">
+            <h2>🗺️ Ubicaciones</h2>
+            <p style="margin-bottom: 15px; color: #666;">Ubicaciones geográficas de Perú (23 registros)</p>
+            
+            <div class="endpoint">
+                GET <a href="/json/ubicaciones" target="_blank">/json/ubicaciones</a>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="cargarJSON('ubicaciones')">Preview</button>
+                <button onclick="copiarEnPortapapeles('/json/ubicaciones')">Copiar URL</button>
+            </div>
+            
+            <div id="response-ubicaciones" class="response"></div>
+        </div>
+        
+        <!-- Health Check -->
+        <div class="section">
+            <h2>💚 Health Check</h2>
+            <p style="margin-bottom: 15px; color: #666;">Verificar que el servidor está funcionando</p>
+            
+            <div class="endpoint">
+                GET <a href="/api/health" target="_blank">/api/health</a>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="cargarJSON('health')">Verificar</button>
+            </div>
+            
+            <div id="response-health" class="response"></div>
+        </div>
+        
+        <!-- Documentation -->
+        <div class="section">
+            <h2>📚 Código de Ejemplo</h2>
+            
+            <h3 style="color: #667eea; margin-top: 15px; margin-bottom: 10px;">JavaScript / Fetch</h3>
+            <div class="endpoint" style="background: #f0f0f0;">
+fetch('/json/documentos')<br/>
+&nbsp;&nbsp;.then(r => r.json())<br/>
+&nbsp;&nbsp;.then(data => console.log(data));
+            </div>
+            
+            <h3 style="color: #667eea; margin-top: 15px; margin-bottom: 10px;">Java / Spring Boot</h3>
+            <div class="endpoint" style="background: #f0f0f0;">
+RestTemplate rt = new RestTemplate();<br/>
+Map data = rt.getForObject("/json/documentos", Map.class);
+            </div>
+            
+            <h3 style="color: #667eea; margin-top: 15px; margin-bottom: 10px;">Python / Requests</h3>
+            <div class="endpoint" style="background: #f0f0f0;">
+import requests<br/>
+r = requests.get('/json/documentos')<br/>
+data = r.json()
+            </div>
+            
+            <h3 style="color: #667eea; margin-top: 15px; margin-bottom: 10px;">cURL</h3>
+            <div class="endpoint" style="background: #f0f0f0;">
+curl http://localhost:3000/json/documentos<br/>
+curl http://localhost:3000/json/ubicaciones
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function cargarJSON(tipo) {
+            const endpoint = `/json/${tipo}`;
+            const responseDiv = document.getElementById(`response-${tipo}`);
+            
+            try {
+                responseDiv.textContent = 'Cargando...';
+                responseDiv.style.display = 'block';
+                
+                const response = await fetch(endpoint);
+                const data = await response.json();
+                
+                responseDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                responseDiv.textContent = `Error: ${error.message}`;
+                responseDiv.style.display = 'block';
+            }
+        }
+        
+        function copiarEnPortapapeles(text) {
+            const url = window.location.origin + text;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('URL copiada: ' + url);
+            });
+        }
+    </script>
+</body>
+</html>

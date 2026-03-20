@@ -1,0 +1,186 @@
+[
+  {
+    "id_ubicacion": 1,
+    "nombre": "Peru",
+    "tipo_ubicacion": "PAIS",
+    "id_padre": null,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 2,
+    "nombre": "Lima",
+    "tipo_ubicacion": "DEPARTAMENTO",
+    "id_padre": 1,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 3,
+    "nombre": "Lima",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 2,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 4,
+    "nombre": "Barranca",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 2,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 5,
+    "nombre": "Cañete",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 2,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 6,
+    "nombre": "Huaral",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 2,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 7,
+    "nombre": "Huaura",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 2,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 8,
+    "nombre": "Miraflores",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 3,
+    "codigo_postal": "15074",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 9,
+    "nombre": "San Isidro",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 3,
+    "codigo_postal": "15073",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 10,
+    "nombre": "Barranca",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 4,
+    "codigo_postal": "15169",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 11,
+    "nombre": "San Vicente de Cañete",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 5,
+    "codigo_postal": "15701",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 12,
+    "nombre": "Huaral",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 6,
+    "codigo_postal": "15201",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 13,
+    "nombre": "Arequipa",
+    "tipo_ubicacion": "DEPARTAMENTO",
+    "id_padre": 1,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 14,
+    "nombre": "Arequipa",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 13,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 15,
+    "nombre": "Camaná",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 13,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 16,
+    "nombre": "Caravelí",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 13,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 17,
+    "nombre": "Castilla",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 13,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 18,
+    "nombre": "Caylloma",
+    "tipo_ubicacion": "PROVINCIA",
+    "id_padre": 13,
+    "codigo_postal": null,
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 19,
+    "nombre": "Arequipa",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 14,
+    "codigo_postal": "04001",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 20,
+    "nombre": "Cerro Colorado",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 14,
+    "codigo_postal": "04014",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 21,
+    "nombre": "Camaná",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 15,
+    "codigo_postal": "04401",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 22,
+    "nombre": "Caravelí",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 16,
+    "codigo_postal": "04301",
+    "estado": "activo"
+  },
+  {
+    "id_ubicacion": 23,
+    "nombre": "Aplao",
+    "tipo_ubicacion": "DISTRITO",
+    "id_padre": 17,
+    "codigo_postal": "04110",
+    "estado": "activo"
+  }
+]

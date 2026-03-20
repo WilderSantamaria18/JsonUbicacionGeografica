@@ -153,6 +153,23 @@
             <div id="response-ubicaciones" class="response"></div>
         </div>
         
+        <!-- Deudas Externas Section -->
+        <div class="section">
+            <h2>💳 Deudas Externas</h2>
+            <p style="margin-bottom: 15px; color: #666;">Registro de deudas externas asociadas a documentos (DNI y RUC)</p>
+            
+            <div class="endpoint">
+                GET <a href="/json/deudas-externas" target="_blank">/json/deudas-externas</a>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="cargarJSON('deudas-externas')">Preview</button>
+                <button onclick="copiarEnPortapapeles('/json/deudas-externas')">Copiar URL</button>
+            </div>
+            
+            <div id="response-deudas-externas" class="response"></div>
+        </div>
+        
         <!-- Health Check -->
         <div class="section">
             <h2>💚 Health Check</h2>
@@ -196,7 +213,8 @@ data = r.json()
             <h3 style="color: #667eea; margin-top: 15px; margin-bottom: 10px;">cURL</h3>
             <div class="endpoint" style="background: #f0f0f0;">
 curl http://localhost:3000/json/documentos<br/>
-curl http://localhost:3000/json/ubicaciones
+curl http://localhost:3000/json/ubicaciones<br/>
+curl http://localhost:3000/json/deudas-externas
             </div>
         </div>
     </div>

@@ -1,0 +1,180 @@
+[
+  {
+    "tipo_documento": "DNI",
+    "numero_documento": "71458236",
+    "clasificacion_sugerida": "SOCIO_PAGADOR",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Regatas Costa Azul",
+        "monto_deuda": 0.00,
+        "fecha_registro": "2025-10-10",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-10",
+        "id_verificador": 1,
+        "observaciones_verificacion": "Deuda revisada por el administrador. No presenta saldo pendiente."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "DNI",
+    "numero_documento": "72845193",
+    "clasificacion_sugerida": "SOCIO_RENUENTE_PAGO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Nautico del Sur",
+        "monto_deuda": 850.00,
+        "fecha_registro": "2026-01-12",
+        "estado": "pendiente",
+        "fecha_verificacion": "2026-03-11",
+        "id_verificador": 1,
+        "observaciones_verificacion": "Se mantiene deuda pendiente según revisión administrativa."
+      },
+      {
+        "nombre_club_origen": "Asociacion Marina Costa",
+        "monto_deuda": 430.00,
+        "fecha_registro": "2025-11-03",
+        "estado": "vencido",
+        "fecha_verificacion": "2026-03-11",
+        "id_verificador": 1,
+        "observaciones_verificacion": "La deuda figura vencida y no registra cancelación."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "DNI",
+    "numero_documento": "70369425",
+    "clasificacion_sugerida": "SOCIO_PAGADOR_ESPORADICO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Bahia Serena",
+        "monto_deuda": 320.00,
+        "fecha_registro": "2025-08-15",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-12",
+        "id_verificador": 1,
+        "observaciones_verificacion": "Pago realizado, aunque con antecedentes de retraso."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "DNI",
+    "numero_documento": "73621840",
+    "clasificacion_sugerida": "SOCIO_PAGADOR",
+    "deudas": [
+      {
+        "nombre_club_origen": "Sin registro de deuda externa",
+        "monto_deuda": 0.00,
+        "fecha_registro": "2026-03-01",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-12",
+        "id_verificador": 1,
+        "observaciones_verificacion": "No se encontraron deudas externas asociadas al postulante."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "DNI",
+    "numero_documento": "74190358",
+    "clasificacion_sugerida": "SOCIO_RENUENTE_PAGO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Deportivo Malecon",
+        "monto_deuda": 1200.00,
+        "fecha_registro": "2026-02-01",
+        "estado": "pendiente",
+        "fecha_verificacion": "2026-03-13",
+        "id_verificador": 1,
+        "observaciones_verificacion": "El postulante mantiene deuda pendiente sin regularizar."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "RUC",
+    "numero_documento": "20605874123",
+    "clasificacion_sugerida": "SOCIO_PAGADOR",
+    "deudas": [
+      {
+        "nombre_club_origen": "Sin registro de deuda externa",
+        "monto_deuda": 0.00,
+        "fecha_registro": "2026-03-02",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-13",
+        "id_verificador": 1,
+        "observaciones_verificacion": "Empresa revisada sin obligaciones pendientes."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "RUC",
+    "numero_documento": "20607415982",
+    "clasificacion_sugerida": "SOCIO_PAGADOR_ESPORADICO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Empresarial del Pacifico",
+        "monto_deuda": 640.00,
+        "fecha_registro": "2025-12-19",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-14",
+        "id_verificador": 1,
+        "observaciones_verificacion": "La deuda fue cancelada, pero se reportaron demoras en el pago."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "RUC",
+    "numero_documento": "20608143756",
+    "clasificacion_sugerida": "SOCIO_RENUENTE_PAGO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Club Nautico Empresarial Norte",
+        "monto_deuda": 2100.00,
+        "fecha_registro": "2026-01-08",
+        "estado": "vencido",
+        "fecha_verificacion": "2026-03-14",
+        "id_verificador": 1,
+        "observaciones_verificacion": "Se encontró deuda vencida pendiente de regularización."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "RUC",
+    "numero_documento": "20609384517",
+    "clasificacion_sugerida": "SOCIO_PAGADOR",
+    "deudas": [
+      {
+        "nombre_club_origen": "Consorcio Maritimo del Oeste",
+        "monto_deuda": 0.00,
+        "fecha_registro": "2025-09-02",
+        "estado": "pagado",
+        "fecha_verificacion": "2026-03-15",
+        "id_verificador": 1,
+        "observaciones_verificacion": "La revisión confirma que no existen saldos pendientes."
+      }
+    ]
+  },
+  {
+    "tipo_documento": "RUC",
+    "numero_documento": "20606721439",
+    "clasificacion_sugerida": "SOCIO_RENUENTE_PAGO",
+    "deudas": [
+      {
+        "nombre_club_origen": "Asociacion Deportiva Costanera",
+        "monto_deuda": 980.50,
+        "fecha_registro": "2026-02-14",
+        "estado": "pendiente",
+        "fecha_verificacion": "2026-03-15",
+        "id_verificador": 1,
+        "observaciones_verificacion": "La deuda permanece pendiente y su sustento sigue en revisión."
+      },
+      {
+        "nombre_club_origen": "Club Social Puerto Nuevo",
+        "monto_deuda": 450.00,
+        "fecha_registro": "2025-11-28",
+        "estado": "vencido",
+        "fecha_verificacion": "2026-03-15",
+        "id_verificador": 1,
+        "observaciones_verificacion": "El registro muestra deuda vencida sin pago acreditado."
+      }
+    ]
+  }
+]

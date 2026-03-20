@@ -23,6 +23,10 @@ app.get('/json/ubicaciones', (req, res) => {
     res.sendFile(path.join(__dirname, 'json/ubicaciones.json'));
 });
 
+app.get('/json/deudas-externas', (req, res) => {
+    res.sendFile(path.join(__dirname, 'json/deudas_externas.json'));
+});
+
 // API Health Check
 app.get('/api/health', (req, res) => {
     res.json({ 
@@ -45,4 +49,5 @@ app.listen(PORT, () => {
     console.log(`✓ Neptuno JSON API escuchando en puerto ${PORT}`);
     console.log(`✓ Documentos: http://localhost:${PORT}/json/documentos`);
     console.log(`✓ Ubicaciones: http://localhost:${PORT}/json/ubicaciones`);
+    console.log(`✓ Deudas Externas: http://localhost:${PORT}/json/deudas-externas`);
 });

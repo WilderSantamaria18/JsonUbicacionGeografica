@@ -6,20 +6,15 @@
       "nombres": "Diego Alonso",
       "apellido_paterno": "Martinez",
       "apellido_materno": "Rojas",
-      "fecha_nacimiento": "1998-04-12",
+      "correo_electronico": "diego.martinez@mockmail.com",
       "telefono": "987654321",
       "direccion": "Av. Jose Pardo 245",
-      "id_ubicacion": 8,
-      "codigo_postal": "15074",
-      "correo_electronico": "diego.martinez@mockmail.com",
+      "ciudad": "Miraflores",
+      "fecha_nacimiento": "1998-04-12",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Lima",
-        "provincia": "Lima",
-        "distrito": "Miraflores"
-      }
+      "codigo_postal": "15074",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "DNI",
@@ -27,20 +22,15 @@
       "nombres": "Valeria Fernanda",
       "apellido_paterno": "Salazar",
       "apellido_materno": "Quispe",
-      "fecha_nacimiento": "1996-11-03",
+      "correo_electronico": "valeria.salazar@mockmail.com",
       "telefono": "912345678",
       "direccion": "Calle Los Laureles 180",
-      "id_ubicacion": 9,
-      "codigo_postal": "15073",
-      "correo_electronico": "valeria.salazar@mockmail.com",
+      "ciudad": "San Isidro",
+      "fecha_nacimiento": "1996-11-03",
       "tipo_interes": "Nautico",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Lima",
-        "provincia": "Lima",
-        "distrito": "San Isidro"
-      }
+      "codigo_postal": "15073",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "DNI",
@@ -48,20 +38,15 @@
       "nombres": "Luis Alberto",
       "apellido_paterno": "Paredes",
       "apellido_materno": "Guzman",
-      "fecha_nacimiento": "1993-07-25",
+      "correo_electronico": "luis.paredes@mockmail.com",
       "telefono": "956781234",
       "direccion": "Jr. Galvez 412",
-      "id_ubicacion": 10,
-      "codigo_postal": "15169",
-      "correo_electronico": "luis.paredes@mockmail.com",
+      "ciudad": "Barranca",
+      "fecha_nacimiento": "1993-07-25",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Lima",
-        "provincia": "Barranca",
-        "distrito": "Barranca"
-      }
+      "codigo_postal": "15169",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "DNI",
@@ -69,20 +54,15 @@
       "nombres": "Camila Andrea",
       "apellido_paterno": "Torres",
       "apellido_materno": "Vega",
-      "fecha_nacimiento": "2000-01-18",
+      "correo_electronico": "camila.torres@mockmail.com",
       "telefono": "965432187",
       "direccion": "Av. Mariscal Benavides 560",
-      "id_ubicacion": 11,
-      "codigo_postal": "15701",
-      "correo_electronico": "camila.torres@mockmail.com",
+      "ciudad": "San Vicente de Cañete",
+      "fecha_nacimiento": "2000-01-18",
       "tipo_interes": "Nautico",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Lima",
-        "provincia": "Cañete",
-        "distrito": "San Vicente de Cañete"
-      }
+      "codigo_postal": "15701",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "DNI",
@@ -90,20 +70,15 @@
       "nombres": "Sebastian Javier",
       "apellido_paterno": "Navarro",
       "apellido_materno": "Diaz",
-      "fecha_nacimiento": "1995-09-09",
+      "correo_electronico": "sebastian.navarro@mockmail.com",
       "telefono": "978123456",
       "direccion": "Psje. Union 95",
-      "id_ubicacion": 12,
-      "codigo_postal": "15201",
-      "correo_electronico": "sebastian.navarro@mockmail.com",
+      "ciudad": "Huaral",
+      "fecha_nacimiento": "1995-09-09",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Lima",
-        "provincia": "Huaral",
-        "distrito": "Huaral"
-      }
+      "codigo_postal": "15201",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     }
   ],
   "ruc": [
@@ -111,91 +86,66 @@
       "tipo_documento": "RUC",
       "numero_documento": "20605874123",
       "razon_social": "Servicios Nauticos del Pacifico SAC",
+      "correo_electronico": "contacto@nauticospacifico.com",
       "telefono": "014321567",
       "direccion": "Av. Ejercito 820",
-      "id_ubicacion": 19,
-      "codigo_postal": "04001",
-      "correo_electronico": "contacto@nauticospacifico.com",
+      "ciudad": "Arequipa",
       "tipo_interes": "Nautico",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Arequipa",
-        "provincia": "Arequipa",
-        "distrito": "Arequipa"
-      }
+      "codigo_postal": "04001",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "RUC",
       "numero_documento": "20607415982",
       "razon_social": "Inversiones Mar Azul EIRL",
+      "correo_electronico": "ventas@marazul.com",
       "telefono": "054612345",
       "direccion": "Av. Aviacion 1502",
-      "id_ubicacion": 20,
-      "codigo_postal": "04014",
-      "correo_electronico": "ventas@marazul.com",
+      "ciudad": "Cerro Colorado",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Arequipa",
-        "provincia": "Arequipa",
-        "distrito": "Cerro Colorado"
-      }
+      "codigo_postal": "04014",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "RUC",
       "numero_documento": "20608143756",
       "razon_social": "Corporacion Costera del Sur SAC",
+      "correo_electronico": "administracion@costerasur.com",
       "telefono": "054531278",
       "direccion": "Jr. Comercio 401",
-      "id_ubicacion": 21,
-      "codigo_postal": "04401",
-      "correo_electronico": "administracion@costerasur.com",
+      "ciudad": "Camaná",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Arequipa",
-        "provincia": "Camaná",
-        "distrito": "Camaná"
-      }
+      "codigo_postal": "04401",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "RUC",
       "numero_documento": "20609384517",
       "razon_social": "Logistica Portuaria Caraveli SAC",
+      "correo_electronico": "operaciones@logisticacaraveli.com",
       "telefono": "054478963",
       "direccion": "Calle Grau 210",
-      "id_ubicacion": 22,
-      "codigo_postal": "04301",
-      "correo_electronico": "operaciones@logisticacaraveli.com",
+      "ciudad": "Caravelí",
       "tipo_interes": "Nautico",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Arequipa",
-        "provincia": "Caravelí",
-        "distrito": "Caravelí"
-      }
+      "codigo_postal": "04301",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     },
     {
       "tipo_documento": "RUC",
       "numero_documento": "20606721439",
       "razon_social": "Agroindustrial Valle Aplao SAC",
+      "correo_electronico": "contacto@valleaplao.com",
       "telefono": "054389521",
       "direccion": "Av. Principal 678",
-      "id_ubicacion": 23,
-      "codigo_postal": "04110",
-      "correo_electronico": "contacto@valleaplao.com",
+      "ciudad": "Aplao",
       "tipo_interes": "Social",
-      "estado_postulacion": "pendiente",
-      "ubicacion_geografica": {
-        "pais": "Peru",
-        "departamento": "Arequipa",
-        "provincia": "Castilla",
-        "distrito": "Aplao"
-      }
+      "codigo_postal": "04110",
+      "fecha_registro": "2026-03-24",
+      "estado_postulacion": "pendiente"
     }
   ]
 }
